@@ -71,11 +71,11 @@ To find an approximate solution in R, we will need four things:
 time <- seq(from = 0, to = 50, by = 0.05)
 
 # Set some parameter values (these can change - keep it in mind) ----
-parameters <- c(r = .75, alpha = 0.8, beta = 0.5, q = 1)
+parameters <- c(r = .75, alpha = 1, beta = 0.5, q = 1)
 
 # Set the initial condition (prey and predator populations at t = 0) ----
 # Recall: V = prey, P = predator
-init_cond <- c(V = 10, P = 4)
+init_cond <- c(V = 8, P = 4)
 
 # Prepare the series of differential equations as a function ----
 lv_equations <- function(time, init_cond, parameters) {
