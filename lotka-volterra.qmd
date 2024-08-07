@@ -106,3 +106,6 @@ ggplot(data = approx_lk_df, aes(x = time, y = population)) +
 What happens as you change the initial conditions and / or parameters (and re-run the entire code chunk)? How does that align with what you see in the graph? 
 
 It can be helpful to change just **one** value at a time and observe it's effects -- do the changes in predator / prey dynamics make sense, based on your changes?
+
+
+hey what's up 
